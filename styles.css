@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+}
+
+.relative {
+	position: relative;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.red {
+	background-color: rgb(211, 28, 40);
+}
+
+.blue {
+	background-color: rgb(69, 69, 206);
+}
+
+.green {
+	background-color: rgb(213, 209, 90);
+}
+
+.marcadores {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.marcador {
+	width: 20px;
+	height: 20px;
+	background-color: aliceblue;
+	margin: 1rem 0;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+.active {
+	background-color: rgb(171, 170, 170);
+}
